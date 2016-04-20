@@ -21,12 +21,12 @@ public class HelloWorld {
 			
 		
 		
-		Player player3 = new Player("billy");
+		Player player3 = new Player("billy")
 		
 
-			player3.x =5;
-			player3.y = 3;
-			player3.printNameAndPosition();
+			player2.x =5;
+			player2.y = 3;
+			player2.printNameAndPosition();
 			
 		
 	}

@@ -12,7 +12,7 @@ public class Player {
 	
 	void printNameAndPosition(){
 		
-		System.out.println(name+": ("+x+","+y+")");
+		System.out.print(name+":"+x+","+y+")");
 		
 		
 	    

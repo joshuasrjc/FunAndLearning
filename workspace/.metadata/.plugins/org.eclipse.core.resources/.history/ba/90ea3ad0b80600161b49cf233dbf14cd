@@ -1,0 +1,34 @@
+
+public class HelloWorld {
+
+	public static void main (String[] args){
+		
+		Player player1 = new Player("steven");
+		
+		System.out.print(":"+player1.name);
+	
+
+		player1.x = 5;
+		player1.y = 3;
+		
+		player1.printPosition();
+		
+		
+		
+		
+		
+	}
+	
+	static int sum(int x, int y){
+		
+		
+		
+		return x+y;
+	}
+	
+	static int multiply(int x, int y){
+		
+		return(x * y);
+	}
+	
+}
