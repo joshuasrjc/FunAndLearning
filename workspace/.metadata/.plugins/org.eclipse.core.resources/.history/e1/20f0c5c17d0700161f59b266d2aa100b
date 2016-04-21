@@ -4,16 +4,15 @@ public class HelloWorld {
 
 	
 	public static void main (String[] args){
-	
+		
 		
 		Player player1 = new Player("steven");
-	
+		
 		player1.printNameAndPosition();
 
 		player1.x = 5;
 		player1.y = 3;
-			
-		player1.printNameAndPosition();
+		
 		
 		Player player2 =new Player("Joshua");
 		

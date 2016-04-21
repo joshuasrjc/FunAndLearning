@@ -8,7 +8,7 @@ public class HelloWorld {
 		
 		Player player1 = new Player("steven");
 	
-		player1.printNameAndPosition();
+	
 
 		player1.x = 5;
 		player1.y = 3;
