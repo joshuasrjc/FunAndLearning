@@ -8,7 +8,7 @@ public class HelloWorld {
 		Player steven = new Player();
 	
 		
-		steven.setTime(2, 75, 125);
+		steven.setTime(2, 75, 69);
 		
 	
 		

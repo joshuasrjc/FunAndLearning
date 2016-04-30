@@ -5,12 +5,8 @@ public class HelloWorld {
 	
 	public static void main (String[] args){
 	
-		Player steven = new Player();
-	
 		
-		steven.setTime(2, 75, 125);
-		
-	
+		steven.setTime(2, 61,5);
 		
 		System.out.println(steven.toMilitary());
 		System.out.println(steven.toSteven());

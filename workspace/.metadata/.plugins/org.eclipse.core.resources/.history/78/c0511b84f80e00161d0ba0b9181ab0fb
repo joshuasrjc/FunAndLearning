@@ -5,7 +5,7 @@ private int minute;
 private int second;
 	
 public void setTime(int h, int m, int s){
-	//why is this initialized
+	//why dose this 
 	int x =0;
 	int y = 0;
 	// fix use of int y and x

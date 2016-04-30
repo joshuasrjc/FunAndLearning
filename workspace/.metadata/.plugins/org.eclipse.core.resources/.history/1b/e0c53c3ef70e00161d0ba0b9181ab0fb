@@ -5,13 +5,13 @@ private int minute;
 private int second;
 	
 public void setTime(int h, int m, int s){
-	//why is this initialized
+	//why dose this 
 	int x =0;
 	int y = 0;
 	// fix use of int y and x
 	second = ((s>=0 && s<60)? s : (x= s% 60));
-	minute = ((m>=0 && m<60)? m+(s/60) :(y = (m%60) +(s/60)));
-	hour = ((h>=0 && h<24)? h+(m/60) :(h= (h%24)+(m/60)));
+	minute = ((m>=0 && m<60)? m :(y = (m%60) +(s/60)));
+	hour = ((h>=0 && h<24)? h :(h= (h%24)+(m/60)));
 	
 	System.out.println("second:"+second);
 	System.out.println("s:"+s);
@@ -19,7 +19,7 @@ public void setTime(int h, int m, int s){
 	System.out.println("minute:"+minute);
 	System.out.println("m:"+m);
 	
-	System.out.println("hour:"+hour);
+	System.out.println("minute:"+hour);
 	System.out.println("h:"+h);
 	
 	System.out.println(x);

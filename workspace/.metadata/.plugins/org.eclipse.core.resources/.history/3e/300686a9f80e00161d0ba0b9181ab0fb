@@ -9,7 +9,7 @@ public void setTime(int h, int m, int s){
 	int x =0;
 	int y = 0;
 	// fix use of int y and x
-	second = ((s>=0 && s<60)? s : (x= s% 60));
+	second = ((s>=0 && s<60)? s : (s= s% 60));
 	minute = ((m>=0 && m<60)? m+(s/60) :(y = (m%60) +(s/60)));
 	hour = ((h>=0 && h<24)? h+(m/60) :(h= (h%24)+(m/60)));
 	
