@@ -5,6 +5,13 @@ public class HelloWorld {
 	
 	public static void main (String[] args){
 	
+		Player steven = new Player();
+		System.out.println(steven.toMilitary());
+		
+		steven.setTime(14, 12, 40);
+		
+		System.out.println(steven.toMilitary());
+		System.out.println(steven.toSteven());
 		
 		steven.setTime(2, 61,5);
 		
